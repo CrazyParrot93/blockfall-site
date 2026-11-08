@@ -1,0 +1,22 @@
+/* Shared styles for the privacy and support pages (neon theme of the game). */
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: #05050a; color: #d9e6f5;
+  background-image: radial-gradient(120% 50% at 50% -10%, rgba(255,0,230,.12), transparent 60%);
+  font: 16px/1.65 "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Roboto, Arial, sans-serif;
+}
+main { max-width: 680px; margin: 0 auto; padding: 32px 16px 48px; }
+a { color: #00f0ff; }
+.brand { margin: 0 0 24px; font-size: 22px; font-weight: 900; letter-spacing: .08em; }
+.brand a { color: #e9fdff; text-decoration: none; text-shadow: 0 0 10px #00f0ff; }
+.brand span { color: #ffd6fb; text-shadow: 0 0 10px #ff00e6; }
+h1 { margin: 0; font-size: 30px; color: #fff; }
+h2 { margin: 32px 0 8px; font-size: 19px; color: #00f0ff; }
+h3 { margin: 20px 0 4px; font-size: 16px; color: #fff; }
+p { margin: 0 0 12px; }
+.meta { color: #8a94c4; font-size: 14px; }
+dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 12px 0 16px; }
+dt { font-weight: 700; color: #fff; }
+dd { margin: 0; }
+footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid rgba(0,240,255,.25); font-size: 14px; }
+@media (max-width: 480px) { dl { grid-template-columns: 1fr; gap: 0; } dd { margin-bottom: 8px; color: #b8c6e0; } }
